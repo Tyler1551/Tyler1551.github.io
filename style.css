@@ -53,15 +53,37 @@ input {
 }
 
 .soc {
-  color: #2a5c75;
+  color: #27409C;
 }
 
 .soc a{
-  color: #2a5c75;
+  color: #27409C;
 }
 
 .header h1{
   color: white;
+}
+
+.mus h1{
+  color: #78469E;
+}
+
+.mus a{
+  color: #78469E;
+}
+
+.gam h1{
+  color: #25A88E;
+}
+.gam a{
+  color: #25A88E;
+}
+
+.mis h1{
+  color: #20BD2D;
+}
+.mis a{
+  color: #20BD2D;
 }
 
 ul {
