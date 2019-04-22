@@ -1,0 +1,78 @@
+body {
+  padding: 50px;
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #222323;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  text-align: center;
+  color: blue;
+}
+
+.form {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.form-control {
+    outline-color: #347a2d;
+}
+
+.form-input {
+  background-color: #222323;
+  outline-color: #347a2d;
+  color: white;
+}
+
+
+
+.cols {
+    margin-top: 20px;
+}
+.cols h1{
+  text-align: center;
+}
+
+.ent {
+  color: #f49542;
+}
+
+.ent a{
+  color: #f49542;
+}
+
+.uni {
+ color: #af3d3d;
+}
+.uni a{
+  color: #af3d3d;
+}
+
+.soc {
+  color: #2a5c75;
+}
+
+.soc a{
+  color: #2a5c75;
+}
+
+.header h1{
+  color: white;
+}
+
+ul {
+
+}
+
+ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+ul li a {
+
+}
