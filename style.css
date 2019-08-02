@@ -98,3 +98,12 @@ ul li {
 ul li a {
 
 }
+
+.ports {
+  color: white;
+  list-style-type: none;
+}
+
+.ports a{
+  color: #7fb4f5;
+}
