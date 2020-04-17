@@ -9,8 +9,8 @@ a {
 }
 
 input {
-  text-align: center;
-  color: blue;
+  /* text-align: center;
+  color: blue; */
 }
 
 .form {
@@ -60,8 +60,8 @@ input {
   color: #27409C;
 }
 
-.header h1{
-  color: white;
+.header{
+  color: grey;
 }
 
 .mus h1{
