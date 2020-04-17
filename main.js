@@ -22,4 +22,10 @@ function checkinput(input){
     content.placeholder = "google search"
     search_form.action = "https://www.google.co.uk/search"
   }
+  if(input.includes(":s")){
+    var search = input.slice(4,len)
+    content.value = search
+    content.placeholder = "soundcloud search"
+    search_form.action = "https://soundcloud.com/search"
+  }
 }
