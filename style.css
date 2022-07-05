@@ -5,7 +5,7 @@ body {
 }
 
 #quote{
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 
@@ -37,6 +37,7 @@ input {
 
 .cols {
     margin-top: 20px;
+    margin-bottom: -2%;
 }
 .cols h1{
   text-align: center;
