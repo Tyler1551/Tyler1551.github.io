@@ -28,22 +28,3 @@ function checkinput(input){
     search_form.action = "https://soundcloud.com/search"
   }
 }
-
-
-const apiData = {
-  url: 'https://api.kanye.rest/'
-}
-
-const apiUrl = `${apiData.url}`;
-
-console.log(apiUrl);
-
-fetch(apiUrl)
-  .then( (data) => data.json())
-  .then( (quote) => genHtml(quote) )
-
-
-const genHtml = (data) => {
-  console.log(data.quote);
-  document.getElementById('quote').innerHTML = data.quote + " \n- Kanye";
-}
