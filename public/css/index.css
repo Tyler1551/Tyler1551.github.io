@@ -1,7 +1,13 @@
+@font-face{
+    font-family: Nunito;
+    src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
 body{
     background-color: #1c1c1c;
     color: white;
     user-select: none;
+    font-family: Nunito;
 }
 
 .container{
@@ -10,8 +16,16 @@ body{
     
 }
 
-h4{
-    margin-bottom: 10px;
+#temperature{
+    font-size: 24px;
+}
+
+h4, h2{
+    font-size: 50px;
+}
+
+#greeting{
+    margin-top: -5vh;
 }
 
 .timedate{
