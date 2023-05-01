@@ -136,10 +136,9 @@ function manageWeather(){
 
     getDate();
     getWeather();
+    manageNews();
 
 }
-
-
 
 // Function calls
 manageTime();

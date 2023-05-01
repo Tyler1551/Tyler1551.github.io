@@ -33,6 +33,7 @@ h4, h2{
     grid-column: 1;
     grid-row: 1;
     justify-content: left;
+    width: 25vw;
 
     /* border-color: #575757;
     border-bottom-style: solid; */
@@ -134,7 +135,30 @@ input[type="text"]{
     color: white;
 }
 
-a{
+.links-main a{
     margin-top: 30px;    
     margin-bottom: 20px;
+}
+
+.news{
+    margin-top: -15vh;
+    display: grid;
+    grid-row: 3;
+    grid-column: 2;
+    justify-content: left;
+    color: #888585;
+}
+
+.news-title{
+    display: flex;
+    color: white;
+}
+
+.news img{
+    filter: invert(1);
+}
+
+.news a{
+    color: #888585;
+    text-decoration: none;
 }
