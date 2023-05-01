@@ -12,7 +12,7 @@ body{
 
 .container{
     display: grid;
-    margin-top: 20vh;
+    margin-top: 5%;
     
 }
 
@@ -141,7 +141,7 @@ input[type="text"]{
 }
 
 .news{
-    margin-top: -15vh;
+    margin-top: -20%;
     display: grid;
     grid-row: 3;
     grid-column: 2;
