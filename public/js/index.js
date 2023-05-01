@@ -84,25 +84,25 @@ function manageWeather(){
             */
     
                 if(weatherCode <= 2){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/sun.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/sun.svg';
                 }
                 else if(weatherCode <= 3){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/cloud.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/cloud.svg';
                 }
                 else if(weatherCode >= 51 && weatherCode <= 55){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/cloud-drizzle.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/cloud-drizzle.svg';
                 }
                 else if(weatherCode >= 61 && weatherCode <= 65){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/cloud-rain.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/cloud-rain.svg';
                 }
                 else if(weatherCode >= 71 && weatherCode <= 75){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/cloud-snow.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/cloud-snow.svg';
                 }
                 else if(weatherCode >= 80 && weatherCode <= 82){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/umbrella.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/umbrella.svg';
                 }
                 else if(weatherCode >= 95){
-                    document.getElementById('weatherIcon').src = 'C:/Users/tyler/Documents/Personal%20Projects/Startpage/public/Icons/cloud-lightning.svg';
+                    document.getElementById('weatherIcon').src = 'public/Icons/cloud-lightning.svg';
                 }
                 document.getElementById('temperature').innerHTML = temperature + '°C';
     
