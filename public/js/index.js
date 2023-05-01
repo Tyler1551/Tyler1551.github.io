@@ -45,10 +45,20 @@ function manageWeather(){
 
 //  Get the users location so we can get accurate weather reading - future
 
+    let long, lat;
+
+    if("geolocation" in navigator){
+        navigator.geolocation.getCurrentPosition((position) =>{
+            lat = position.coords.latitude;
+            long = position.coords.longitude;
+        });
+    }
+    else{
+        console.log('No geolocation data available, weather will be disabled');
+    }
 
     function getWeather(){
-        var api = 'https://api.open-meteo.com/v1/forecast?latitude=54.54&longitude=-6.01&hourly=temperature_2m&current_weather=true';
-
+        var api = 'https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude=' + long + '&hourly=temperature_2m&current_weather=true';
         var req = new XMLHttpRequest();
     
         req.open('GET', api, true);
@@ -112,7 +122,7 @@ function manageWeather(){
 
         t = setTimeout(function() {
             getWeather();
-        }, 6000);
+        }, 1000);
     }
 
     function getDate(){
