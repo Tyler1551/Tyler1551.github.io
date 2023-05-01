@@ -9,6 +9,11 @@ body{
     
 }
 
+
+h4{
+    margin-bottom: 10px;
+}
+
 .timedate{
     display: grid;
     grid-column: 1;
