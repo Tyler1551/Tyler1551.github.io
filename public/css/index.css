@@ -1,6 +1,7 @@
 body{
     background-color: #1c1c1c;
     color: white;
+    user-select: none;
 }
 
 .container{
@@ -8,7 +9,6 @@ body{
     margin-top: 20vh;
     
 }
-
 
 h4{
     margin-bottom: 10px;
