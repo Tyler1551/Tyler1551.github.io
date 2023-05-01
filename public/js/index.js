@@ -122,7 +122,7 @@ function manageWeather(){
 
         t = setTimeout(function() {
             getWeather();
-        }, 1000);
+        }, 500);
     }
 
     function getDate(){
