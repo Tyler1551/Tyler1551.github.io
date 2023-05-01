@@ -1,0 +1,121 @@
+body{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.container{
+    display: grid;
+    margin-top: 20vh;
+    
+}
+
+.timedate{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: left;
+
+    /* border-color: #575757;
+    border-bottom-style: solid; */
+    
+}
+
+.weather{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: left;
+    
+}
+
+
+.weatherStatus{
+    filter:invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.links-main{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+
+    margin-top: 39px;
+}
+
+.Calender{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: left;
+}
+
+.Github{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: left;
+}
+.Mail{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    justify-content: left;
+}
+.YouTube{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    justify-content: left;
+}
+.Netflix{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    justify-content: left;
+}
+.Messenger{
+    display: grid;
+    grid-row: 2;
+    grid-column: 3;
+    justify-content: left;
+}
+
+
+.searchbar{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.inputsearch{
+    height: 35px;
+    border-radius: 2px;
+    text-shadow: none;
+    box-shadow: none;
+    border:none;
+    margin-top: 5px;
+}
+
+.inputsearch:focus{
+    outline: none;
+}
+
+.searchform{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+}
+
+input[type="text"]{
+    width: 100%;
+    background: transparent;
+    border-bottom-style: solid;
+    border-color: #575757;
+    color: white;
+}
+
+a{
+    margin-top: 30px;    
+    margin-bottom: 20px;
+}
