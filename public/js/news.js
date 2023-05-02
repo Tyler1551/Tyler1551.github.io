@@ -10,7 +10,7 @@ function manageNews(){
 
         console.log(data);
 
-        for(var i = 1; i < 6; i++){
+        for(var i = 0; i < 7; i++){
             var header = data.response.results[i].webTitle;
             var link = data.response.results[i].webUrl;
 
