@@ -14,10 +14,16 @@ function manageNews(){
             var header = data.response.results[i].webTitle;
             var link = data.response.results[i].webUrl;
 
-            var article = 'article'+i+'-header';
-            document.getElementById('article' + i +'-header').innerHTML = header;
-            document.getElementById('article' + i +'-link').href = link;
-            document.getElementById('article' + i +'-link').target = '_blank';
+            var article = document.createElement("a");
+            article.innerHTML = header;
+            article.href = link;
+            article.target = '_blank';
+            var news_id = article.id = 'article' + i;
+
+
+            document.getElementById("news-articles").appendChild(article);
+
+            
         }
     }
 
