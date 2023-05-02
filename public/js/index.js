@@ -25,7 +25,7 @@ function manageTime(){
             startTime()
         }, 1000);
 
-        if(hour <= 12){
+        if(hour <= 11){
             document.getElementById('greeting').innerHTML = "Good morning, Tyler";
         }
         else if(hour >= 12 && hour < 17){
