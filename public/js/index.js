@@ -19,7 +19,7 @@ function manageTime(){
         minute = checkTime(minute);
         second = checkTime(second);
 
-        document.getElementById("clock").innerHTML = hour + ":" + minute;
+        document.getElementById("clock").innerHTML = hour + ":" + minute + ":" + second;
 
         t = setTimeout(function() {
             startTime()
