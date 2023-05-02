@@ -8,7 +8,15 @@ body{
     color: white;
     user-select: none;
     font-family: Nunito;
+    filter: invert(0);
 }
+
+.dark-mode{
+    background-color: antiquewhite;
+    filter: invert(1);
+}
+
+
 
 .container{
     display: grid;
@@ -166,4 +174,13 @@ input[type="text"]{
 .news-articles a{
     display: flex;
     margin-bottom: 20px;
+}
+
+button{
+    display: none;
+}
+
+#theme-select{
+    margin-left: 5vw;
+    margin-top: 20px;
 }

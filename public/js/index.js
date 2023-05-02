@@ -142,3 +142,21 @@ function manageWeather(){
 // Function calls
 manageTime();
 manageWeather();
+
+
+function invert_colour(){
+    var element = document.body;
+    element.classList.toggle('dark-mode');
+
+
+    var themeSelect = document.getElementById('theme-select');
+//  Change the theme selector button
+
+    if(themeSelect.getAttribute('src') === 'public/Icons/moon.svg'){
+        themeSelect.setAttribute('src', 'public/Icons/sun.svg');
+    }
+    else{
+        themeSelect.setAttribute('src', 'public/Icons/moon.svg');
+    }
+    
+}
