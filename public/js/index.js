@@ -41,6 +41,10 @@ function manageTime(){
     startTime();
 }
 
+function end(){
+    document.getElementById('weatherIcon').style = null;
+}
+
 function manageWeather(){
 
 //  Get the users location so we can get accurate weather reading - future
@@ -91,7 +95,8 @@ function manageWeather(){
                 85, 86	Snow showers slight and heavy
                 95 *	Thunderstorm: Slight or moderate
                 96, 99 *	Thunderstorm with slight and heavy hail
-            */
+            */                
+                
                 if(weatherCode <= 2){
                     document.getElementById('weatherIcon').src = 'public/Icons/sun.svg';
                 }
@@ -112,9 +117,6 @@ function manageWeather(){
                 }
                 else if(weatherCode >= 95){
                     document.getElementById('weatherIcon').src = 'public/Icons/cloud-lightning.svg';
-                }
-                else{
-                    
                 }
                 document.getElementById('temperature').innerHTML = temperature + '°C';
     
