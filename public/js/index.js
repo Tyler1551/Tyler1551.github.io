@@ -114,7 +114,7 @@ function manageWeather(){
                     document.getElementById('weatherIcon').src = 'public/Icons/cloud-lightning.svg';
                 }
                 else{
-                    document.getElementById('weatherIcon').src = 'public/Icons/loader.svg';
+                    
                 }
                 document.getElementById('temperature').innerHTML = temperature + '°C';
     

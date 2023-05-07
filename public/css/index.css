@@ -3,6 +3,22 @@
     src: url(../fonts/Nunito/Nunito-VariableFont_wght.ttf);
 }
 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#weatherIcon{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
 body{
     background-color: #1c1c1c;
     color: white;
