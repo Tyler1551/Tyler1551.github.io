@@ -17,7 +17,6 @@ body{
     color: white;
     user-select: none;
     font-family: Nunito;
-    filter: invert(0);
 }
 
 .dark-mode{
