@@ -92,7 +92,6 @@ function manageWeather(){
                 95 *	Thunderstorm: Slight or moderate
                 96, 99 *	Thunderstorm with slight and heavy hail
             */
-    
                 if(weatherCode <= 2){
                     document.getElementById('weatherIcon').src = 'public/Icons/sun.svg';
                 }
@@ -113,6 +112,9 @@ function manageWeather(){
                 }
                 else if(weatherCode >= 95){
                     document.getElementById('weatherIcon').src = 'public/Icons/cloud-lightning.svg';
+                }
+                else{
+                    document.getElementById('weatherIcon').src = 'public/Icons/loader.svg';
                 }
                 document.getElementById('temperature').innerHTML = temperature + '°C';
     
