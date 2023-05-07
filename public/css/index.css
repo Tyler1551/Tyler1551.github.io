@@ -13,7 +13,19 @@ body{
 
 .dark-mode{
     background-color: antiquewhite;
+    color: black;
+}
+
+.dark-mode .links-main{
     filter: invert(1);
+}
+
+.dark-mode .news-title{
+    filter: invert(1);
+}
+
+.dark-mode .weather{
+    filter: invert(0);
 }
 
 

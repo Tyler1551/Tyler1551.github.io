@@ -128,8 +128,10 @@ function manageWeather(){
     function getDate(){
         var d = new Date();
 
-        var day = d.getDay();
+        var day = d.getDate();
         var month = d.toLocaleString('default', {month: 'long'});
+
+        console.log(day);
 
         document.getElementById('date').innerHTML = month + ', ' + day;
     }
