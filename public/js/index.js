@@ -42,7 +42,7 @@ function manageTime(){
 }
 
 function end(){
-    document.getElementById('weatherIcon').style = null;
+    document.getElementById('weatherIcon').style = "filter:invert(1)";
 }
 
 function manageWeather(){
@@ -156,13 +156,19 @@ function invert_colour(){
 
 
     var themeSelect = document.getElementById('theme-select');
+    var weatherIcon = document.getElementById('weatherIcon');
 //  Change the theme selector button
 
     if(themeSelect.getAttribute('src') === 'public/Icons/moon.svg'){
         themeSelect.setAttribute('src', 'public/Icons/sun.svg');
+        themeSelect.style = "filter: invert(1)";
+        weatherIcon.style = "filter: invert(1)";
+        
     }
     else{
         themeSelect.setAttribute('src', 'public/Icons/moon.svg');
+        themeSelect.style = "filter: invert(0)";
+        weatherIcon.style = "filter: invert(0)";
     }
     
 }
