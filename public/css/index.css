@@ -32,6 +32,17 @@ body{
     filter: invert(1);
 }
 
+.dark-mode .weather{
+    filter: invert(1);   
+}
+
+.dark-mode .weather h2{
+    filter: invert(1);
+}
+
+.dark-mode .weather p{
+    filter: invert(1);   
+}
 
 
 .container{
