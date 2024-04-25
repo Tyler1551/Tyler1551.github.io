@@ -213,7 +213,7 @@ button{
 }
 
 
-@media only screen and (max-width: 1344px){
+@media only screen and (max-width: 1300px){
 
     #theme-select{
         margin-left: 0px;
@@ -233,9 +233,8 @@ button{
         font-size: 50px;
     }
     .timedate{
-        margin-top: 20vh;
-        display: grid;
-        grid-row: 2;
+        display: none;
+        grid-row: 1;
         grid-column: 1;
     }
 
