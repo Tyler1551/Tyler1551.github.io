@@ -48,7 +48,6 @@ function end(){
 function manageWeather(){
 
 //  Get the users location so we can get accurate weather reading - future
-
     let long, lat;
 
     if("geolocation" in navigator){
