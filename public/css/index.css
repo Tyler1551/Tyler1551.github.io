@@ -248,7 +248,7 @@ button{
     }
 
     .weather{
-        margin-top: 15vh;
+        margin-top: 5vh;
         margin-left: 40px;
         margin-right: 40px;
         display: grid;
@@ -262,6 +262,7 @@ button{
         display: grid;
         grid-row: 3;
         grid-column: 2;
+        align-items: center;
     }
 
     .searchbar{
@@ -285,6 +286,7 @@ button{
         margin-right: 40px;
         border-bottom: solid;
         border-color: #575757;
+        margin-bottom: 40px;
         
     }
 }
