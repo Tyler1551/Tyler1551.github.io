@@ -170,3 +170,8 @@ function invert_colour(){
     }
     
 }
+
+
+function fetch_portfolio(){
+
+}
