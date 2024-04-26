@@ -286,9 +286,9 @@ button{
     }
 
     .links-main{
-        margin-top: 5vh;
-        margin-left: 45px;
-        margin-right: 45px;
+        margin-top: 2vh;
+        margin-left: 95px;
+        margin-right: 0px;
         display: grid;
         grid-row: 3;
         grid-column: 2;
@@ -322,8 +322,7 @@ button{
     }
 
     #theme-select{
-        margin-left: 90vw;
-        
+        margin-left: 85vw;
         display: grid;
         grid-row: 2;
         grid-column: 3;
