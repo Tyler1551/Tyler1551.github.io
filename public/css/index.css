@@ -277,7 +277,7 @@ button{
     }
 
     .weather{
-        margin-top: 2vh;
+        margin-top: 0vh;
         margin-left: 40px;
         margin-right: 40px;
         display: grid;
@@ -335,5 +335,15 @@ button{
         grid-column: 2;
         margin-left: 40px;
         font-size: 16px;
+        margin-bottom: -5vh;
+    }
+
+    .timedate h2{
+        font-size: 24px;
+    }
+
+    
+    #greeting{
+        display: none;
     }
 }
