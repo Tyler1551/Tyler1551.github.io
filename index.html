@@ -39,10 +39,9 @@
 
         <div class="searchbar">
             <form action="https://www.google.co.uk/search?q=" method="get">
-                <input autofocus autocomplete="off" class="inputsearch" type="text"  width="100%" name="q">
+                <input id="Search" autofocus autocomplete="off" class="inputsearch" type="text"  width="100%" name="q">
             </form>
         </div>
-
         <div class="news">
             <div class="news-title">
                 <h4>News</h4>
@@ -50,9 +49,12 @@
             </div>
 
             <div id="news-articles" class="news-articles">
-
             </div>
+        </div>
 
+        <div class="AlbumSuggestion">
+            <p id="album"></p>
+            <button id="albumButton" class="btn" onclick="getAlbum();">Get Album</button>
         </div>
 
     </div>
@@ -60,5 +62,6 @@
 
 <script src="public/js/index.js"></script>
 <script src="public/js/news.js"></script>
+<script src="public/js/suggestion.js"></script>
 
 </html>

@@ -69,7 +69,7 @@ function manageWeather(){
         req.onload = function(){
             var data = JSON.parse(this.response);
     
-            // console.log(data);
+            console.log(data);
     
             var temperature = data.current_weather.temperature;
             var weatherCode = data.current_weather.weathercode;
@@ -153,7 +153,6 @@ function invert_colour(){
     var element = document.body;
     element.classList.toggle('dark-mode');
 
-
     var themeSelect = document.getElementById('theme-select');
     var weatherIcon = document.getElementById('weatherIcon');
 //  Change the theme selector button
@@ -161,11 +160,14 @@ function invert_colour(){
     if(themeSelect.getAttribute('src') === 'public/Icons/moon.svg'){
         themeSelect.setAttribute('src', 'public/Icons/sun.svg');
         themeSelect.style = "filter: invert(1)";
+        document.getElementById('albumButton').style.color = "white"
+        
         
     }
     else{
         themeSelect.setAttribute('src', 'public/Icons/moon.svg');
         themeSelect.style = "filter: invert(0)";
+        document.getElementById('albumButton').style.color = "black"
     }
     
 }

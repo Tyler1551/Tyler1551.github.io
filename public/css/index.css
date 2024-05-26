@@ -189,6 +189,10 @@ input[type="text"]{
     color: white;
 }
 
+#clock{
+    height: 100%;
+}
+
 .news img{
     filter: invert(1);
 }
@@ -203,10 +207,6 @@ input[type="text"]{
     margin-bottom: 20px;
 }
 
-button{
-    display: none;
-}
-
 #theme-select{
     margin-left: 5vw;
     margin-top: 20px;
@@ -214,6 +214,11 @@ button{
 
 
 @media only screen and (max-width: 1100px){
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
 
     .Calender{
         display: grid;
@@ -282,7 +287,7 @@ button{
         margin-right: 40px;
         display: grid;
         grid-row: 2;
-        grid-column: 2;
+        grid-column: 1;
     }
 
     .links-main{
@@ -291,7 +296,7 @@ button{
         margin-right: 0px;
         display: grid;
         grid-row: 3;
-        grid-column: 2;
+        grid-column: 1;
         align-items: center;
         width: 100%;
     }
@@ -301,14 +306,14 @@ button{
         margin-left: 40px;
         display: grid;
         grid-row: 4;
-        grid-column: 2;
+        grid-column: 1;
         width: 85%;
         
     }
     .news{
         display: grid;
         grid-row: 4;
-        grid-column: 2;
+        grid-column: 1;
         margin-top: 8vh;
         margin-left: 40px;
     }
@@ -325,13 +330,13 @@ button{
         margin-left: 85vw;
         display: grid;
         grid-row: 2;
-        grid-column: 3;
+        grid-column: 1;
     }
     .timedate{
         display: grid;
         margin-top: -5vh;
         grid-row: 1;
-        grid-column: 2;
+        grid-column: 1;
         margin-left: 40px;
         font-size: 16px;
         margin-bottom: -5vh;
@@ -345,4 +350,39 @@ button{
     #greeting{
         display: none;
     }
+    .AlbumSuggestion{
+        display: none;
+        grid-column: 1;
+        grid-row: 10;
+    }
+    #album{
+        display: none;
+    }
+    #albumButton{
+        display: none;
+    }
+}
+
+.AlbumSuggestion{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 2vh;
+}
+.album{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+}
+.AlbumSuggestion button{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    width: 30%;
+    height: 25%;
+    margin-bottom: 15vh;
+    background-color: transparent;
+    color: white;
+    border-bottom-style: solid;
+    outline: none;
 }
