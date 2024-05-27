@@ -39,3 +39,18 @@
 
 
     startTime();
+
+    function getDate(){
+        var d = new Date();
+        var day = d.getDate();
+
+        var months = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+        var month = d.getMonth();
+
+        var date = day + ', ' + months[month];
+
+        document.getElementById('date').innerHTML = date;
+    }
+
+    getDate();
