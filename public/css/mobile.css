@@ -5,7 +5,7 @@
         display: grid;
         grid-row: 1;
         grid-column: 1;
-        grid-template-rows: repeat(5, 75px);
+        grid-template-rows: repeat(6, 75px);
         
     }
 
@@ -34,7 +34,7 @@
     .links{
         display: grid;
         grid-row: 3;
-        grid-column: 1 / 5;
+        grid-column: 1 / 6;
         grid-template-columns: repeat(5, 1fr);
         border-bottom-style: solid;
         border-width: 2px;
