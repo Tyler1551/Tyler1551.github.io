@@ -66,4 +66,5 @@ function getWeather(){
         console.log('No geolocation data available, weather will be disabled');
     }
 }
+
 getWeather();
