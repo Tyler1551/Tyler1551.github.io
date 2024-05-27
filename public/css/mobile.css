@@ -1,0 +1,60 @@
+/* Mobile Section */
+@media only screen and (max-width: 768px){
+    .main{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+        grid-template-rows: repeat(5, 75px);
+        
+    }
+
+    .greeting{
+        display: grid;
+        grid-row: 2;
+        grid-column: 1 / 5;
+    }
+    .time{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .weather{
+        display: grid;
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+    .searchForm{
+        display: grid;
+        grid-row: 2;
+    }
+
+    .links{
+        display: grid;
+        grid-row: 3;
+        grid-column: 1 / 5;
+        grid-template-columns: repeat(5, 1fr);
+        border-bottom-style: solid;
+        border-width: 2px;
+        border-color: #846C5B;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .messenger{
+        display: none;
+    }
+
+    #news{
+        margin-top: 2vh;
+        display: grid;
+        grid-row: 4;
+        grid-column: 1 / 5;
+    }
+
+    #icon{
+        margin-right: 5px;
+    }
+
+}

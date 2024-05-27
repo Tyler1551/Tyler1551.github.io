@@ -26,13 +26,13 @@
         }, 1000);
 
         if(hour <= 11){
-            document.getElementById('greeting').innerHTML = "Good morning";
+            document.getElementById('greeting').innerHTML = "Good Morning";
         }
         else if(hour >= 12 && hour < 17){
-            document.getElementById('greeting').innerHTML = "Good afternoon";
+            document.getElementById('greeting').innerHTML = "Good Afternoon";
         }
         else if(hour >= 17){
-            document.getElementById('greeting').innerHTML = "Good evening";
+            document.getElementById('greeting').innerHTML = "Good Evening";
         }
     }
 
