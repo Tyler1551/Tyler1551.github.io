@@ -24,6 +24,12 @@
         display: grid;
         grid-row: 1;
         grid-column: 4;
+        align-items: center;
+        justify-items: center;
+    }
+
+    #temp{
+        margin-top: 1.5vh;
     }
 
     .searchForm{
