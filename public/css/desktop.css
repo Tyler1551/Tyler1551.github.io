@@ -44,17 +44,25 @@ body{
     grid-row: 1;
 }
 
+.weather{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1);
+    grid-row: 1;
+    grid-column: 4;
+}
+
 #icon{
     display: grid;
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 1;
-    align-items:end;
+    margin-right: 10px;
 }
+
 #temp{
     display: grid;
-    grid-column: 4;
+    grid-column: 2;
     grid-row: 1;
-    
 }
 
 .searchForm{

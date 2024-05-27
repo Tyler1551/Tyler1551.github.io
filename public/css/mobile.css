@@ -34,16 +34,24 @@
         grid-column: 1;
         grid-row: 1;
     }
+
+    .weather{
+        display: grid;
+        grid-column: 4;
+        grid-row: 1;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1);
+    }
     
     #icon{
         display: grid;
-        grid-column: 3;
+        grid-column: 1;
         grid-row: 1;
         align-items:end;
     }
     #temp{
         display: grid;
-        grid-column: 4;
+        grid-column: 2;
         grid-row: 1;
         
     }
