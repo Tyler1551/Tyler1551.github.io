@@ -11,19 +11,40 @@
     .greeting{
         display: grid;
         grid-row: 1;
-        grid-column: 1 / 5;
+        grid-column: 1;
     }
 
     .util{
         display: grid;
-        grid-row: 2;
-        grid-column: 1 / 2;
+        grid-template-columns: 2;
+        grid-template-rows: 5;
+        grid-row: 1;
+        grid-column: 2 / 5;
+    }
+
+    .time{
+        display: grid;
+        grid-row: 1;
+        grid-column: 3;
     }
 
     .weather{
         display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 10px);
+        grid-row: 5;
+        grid-column: 3;
+        margin-top: 3vh;
+    }
+    #temp{
+        display: grid;
+        grid-row: 2;
+        grid-column: 1;
+    }
+    #icon{
+        display: grid;
         grid-row: 1;
-        grid-column: 5;
+        grid-column: 1;
     }
 
     .searchForm{
