@@ -47,13 +47,13 @@ body{
 #icon{
     display: grid;
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
     align-items:end;
 }
 #temp{
     display: grid;
     grid-column: 4;
-    grid-row: 2;
+    grid-row: 1;
     
 }
 
