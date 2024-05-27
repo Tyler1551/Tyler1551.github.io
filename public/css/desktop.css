@@ -80,6 +80,7 @@ body{
     border-color: #CEA07E;
     color: white;
     width: 100%;
+    caret-color:#CEA07E;
 }
 .search:focus{
     outline: none;
@@ -157,4 +158,46 @@ body{
     text-decoration: none;
     width: 100%;
     margin-bottom: 10px;
+}
+
+.convertCase{
+    color: wheat;
+    display: grid;
+    grid-row: 7;
+    grid-column: 1;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 0px);
+    margin-right: 20px;
+
+}
+
+.convertCase a{
+    background-color: transparent;
+    text-align: center;
+    color: #EDD9A3;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.convertCase a:focus{
+    border-style: none;
+}
+
+.form-control{
+    background-color: #443742;
+    color: white;
+    height: 100px;
+    border-style: solid;
+    border-color: #EDD9A3;
+}
+
+
+.form-control:focus{
+    background-color: #443742;
+    height: 100px;
+    border-style: solid;
+    border-color: #EDD9A3;
 }

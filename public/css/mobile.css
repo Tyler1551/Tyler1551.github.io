@@ -88,4 +88,8 @@
         margin-right: 5px;
     }
 
+    .convertCase{
+        display: none;
+    }
+
 }
