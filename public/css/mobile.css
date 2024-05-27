@@ -1,6 +1,7 @@
 /* Mobile Section */
 @media only screen and (max-width: 768px){
     .main{
+        margin-top: 10vh;
         display: grid;
         grid-row: 1;
         grid-column: 1;
