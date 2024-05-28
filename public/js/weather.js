@@ -45,16 +45,16 @@ function getWeather(){
                         document.getElementById('icon').data = 'public/ico/weather/cloud-drizzle.svg';
                     }
                     else if(weatherCode >= 61 && weatherCode <= 65){
-                        document.getElementById('icon').data = 'public/ico/weathercloud-rain.svg';
+                        document.getElementById('icon').data = 'public/ico/cloud-rain.svg';
                     }
                     else if(weatherCode >= 71 && weatherCode <= 75){
-                        document.getElementById('icon').data = 'public/ico/weathercloud-snow.svg';
+                        document.getElementById('icon').data = 'public/ico/cloud-snow.svg';
                     }
                     else if(weatherCode >= 80 && weatherCode <= 82){
                         document.getElementById('icon').data = 'public/ico/weatherumbrella.svg';
                     }
                     else if(weatherCode >= 95){
-                        document.getElementById('icon').data = 'public/ico/weathercloud-lightning.svg';
+                        document.getElementById('icon').data = 'public/ico/cloud-lightning.svg';
                     }
                     document.getElementById('temp').innerHTML = temperature + '°C';
             }
