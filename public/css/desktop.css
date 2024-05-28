@@ -161,29 +161,56 @@ body{
 }
 
 .convertCase{
-    color: wheat;
+    color: white;
     display: grid;
     grid-row: 7;
     grid-column: 1;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 0px);
+    grid-template-rows: repeat(2, 10);
+    grid-gap: 5px;
     margin-right: 20px;
 
 }
 
-.convertCase a{
+.convertCase textarea{
+    display: none;
+    grid-row: 1;
+    grid-column: 1;
+    caret-color: #CEA07E;
+    color: black;
+}
+
+#convert{
+    background-color: transparent;
+    text-align: center;
+    color: #EDD9A3;
+    display: none;
+    grid-column: 2;
+    grid-row: 1;
+    text-decoration: none;
+    margin-left: 5px;
+    width: 50;
+}
+
+#hide{
     background-color: transparent;
     text-align: center;
     color: #EDD9A3;
     display: grid;
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 1;
     text-decoration: none;
-    margin-left: 5px;
+    width: 50%;
 }
 
 .convertCase a:focus{
     border-style: none;
+}
+
+.control{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 10px);
 }
 
 .form-control{

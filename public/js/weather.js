@@ -51,7 +51,7 @@ function getWeather(){
                         document.getElementById('icon').data = 'public/ico/cloud-snow.svg';
                     }
                     else if(weatherCode >= 80 && weatherCode <= 82){
-                        document.getElementById('icon').data = 'public/ico/weatherumbrella.svg';
+                        document.getElementById('icon').data = 'public/ico/umbrella.svg';
                     }
                     else if(weatherCode >= 95){
                         document.getElementById('icon').data = 'public/ico/cloud-lightning.svg';
