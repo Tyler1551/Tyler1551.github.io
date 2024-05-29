@@ -10,14 +10,15 @@
     }
     .greeting{
         display: grid;
-        grid-row: 1;
-        grid-column: 1;
+        grid-row: 2;
+        grid-column: 1 / 6;
+        align-items: center;
     }
 
     .util{
         display: grid;
         grid-column: 1 / 5;
-        grid-row: 2;
+        grid-row: 1;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 5vh);
         align-items: center;
