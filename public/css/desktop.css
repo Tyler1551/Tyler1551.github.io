@@ -173,12 +173,17 @@ body{
 
 }
 
-.convertCase textarea{
+.convertCase input{
     display: none;
     grid-row: 1;
     grid-column: 1;
     caret-color: #CEA07E;
     color: black;
+    height: 50px;
+}
+
+.convertCase input:focus{
+    height: 50px;
 }
 
 #convert{
