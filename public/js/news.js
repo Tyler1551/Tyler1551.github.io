@@ -8,8 +8,6 @@ window.onload = (event) =>{
     req.onload = function(){
         var data = JSON.parse(this.response);
 
-        // console.log(data);
-
         for(var i = 0; i < 5; i++){
             var header = data.response.results[i].webTitle;
             var link = data.response.results[i].webUrl;

@@ -59,16 +59,18 @@
 
     .searchForm{
         display: grid;
-        grid-row: 3;
+        grid-row: 4;
+        align-items: end;
     }
 
     .links{
         display: grid;
-        grid-row: 4;
+        grid-row: 5;
         grid-column: 1 / 6;
         grid-template-columns: repeat(5, 1fr);
         border-bottom-style: solid;
         border-width: 2px;
+        grid-template-rows: 75px;
         border-color: #846C5B;
         align-items: center;
         justify-items: center;
@@ -81,8 +83,9 @@
     #news{
         margin-top: 2vh;
         display: grid;
-        grid-row: 5;
+        grid-row: 6;
         grid-column: 1 / 5;
+        padding: 10px;
     }
 
     #icon{

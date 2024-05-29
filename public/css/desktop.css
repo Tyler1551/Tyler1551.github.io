@@ -28,7 +28,7 @@ body{
     display: grid;
     grid-column: 4 / 5;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 5vh);
+    grid-template-rows: repeat(1, 2vh);
     align-items: center;
 }
 
@@ -68,9 +68,8 @@ body{
 }
 
 .searchForm{
-    margin-top: 5vh;
     display: grid;
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1 / 5;
     
 }
