@@ -26,9 +26,9 @@ body{
 
 .util{
     display: grid;
-    grid-column: 3 / 5;
+    grid-column: 4 / 5;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 5vh);
+    grid-template-rows: repeat(1, 5vh);
     align-items: center;
 }
 
@@ -36,32 +36,34 @@ body{
     display: grid;
     grid-column: 2 / 4;
     grid-row: 2;
+    margin-top: 3vh;
 }
 
 #clock{
     display: grid;
     grid-column: 2;
     grid-row: 1;
+    justify-content: left;
 }
 
 .weather{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 5vh);
     grid-row: 1;
-    grid-column: 4;
+    grid-column: 3 / 4;
 }
 
 #icon{
     display: grid;
-    grid-column: 1;
+    grid-column: 3;
     grid-row: 1;
     margin-right: 10px;
 }
 
 #temp{
     display: grid;
-    grid-column: 2;
+    grid-column: 4;
     grid-row: 1;
 }
 
