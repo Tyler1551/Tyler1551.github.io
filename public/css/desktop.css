@@ -97,7 +97,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 75px);
     align-items: center;
-    justify-items: left;
+    justify-items: center; 
 }
 
 .links svg{
@@ -145,6 +145,7 @@ body{
     grid-column: 2 / 6;
     padding: 10px;
 }
+
 
 #news h2{
     color: #EDD9A3;
