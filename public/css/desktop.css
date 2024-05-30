@@ -30,13 +30,14 @@ body{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 2vh);
     align-items: center;
+    grid-row-gap: 2vh;
 }
 
 #date{
     display: grid;
     grid-column: 2 / 4;
     grid-row: 2;
-    margin-top: 3vh;
+    
 }
 
 #clock{
@@ -69,7 +70,7 @@ body{
 
 .searchForm{
     display: grid;
-    grid-row: 3;
+    grid-row: 4;
     grid-column: 1 / 5;
     
 }
@@ -91,7 +92,7 @@ body{
 
 .links{
     display: grid;
-    grid-row: 4 / 6;
+    grid-row: 5 / 6;
     grid-column: 1 / 2;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 75px);
@@ -140,8 +141,9 @@ body{
 /* News Section */
 #news{
     display: grid;
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 2 / 6;
+    padding: 10px;
 }
 
 #news h2{
@@ -164,7 +166,7 @@ body{
 .convertCase{
     color: white;
     display: grid;
-    grid-row: 7;
+    grid-row: 8;
     grid-column: 1;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 10);
