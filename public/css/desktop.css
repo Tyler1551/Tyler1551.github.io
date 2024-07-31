@@ -237,3 +237,9 @@ body{
     border-style: solid;
     border-color: #EDD9A3;
 }
+
+.bus-times{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+}
