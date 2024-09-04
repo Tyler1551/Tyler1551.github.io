@@ -72,8 +72,8 @@ body{
     display: grid;
     grid-row: 4;
     grid-column: 1 / 5;
-    
 }
+
 .search{
     background-color: transparent;
     border-style: none;
@@ -81,11 +81,38 @@ body{
     border-width: 2px;
     border-color: #CEA07E;
     color: white;
-    width: 100%;
+    width: 90%;
     caret-color:#CEA07E;
 }
 .search:focus{
     outline: none;
+}
+
+.searchOptions{
+    display: grid;
+    grid-row: 4;
+    grid-column: 5;
+    font-family: Nunito;
+
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 20px;
+    font-family: Nunito;
+    background-color: transparent;
+    color: #CEA07E;
+    border-style: none;
+}
+
+option{
+    background-color: #443742;
+}
+
+option:active{
+    border-style: none;
 }
 
 /* Links Section */
