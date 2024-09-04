@@ -58,6 +58,10 @@
         
     }
 
+    .search{
+        width: 100%;
+    }
+
     .searchForm{
         display: grid;
         grid-row: 4;
@@ -97,4 +101,8 @@
         display: none;
     }
 
+
+    select{
+        display: none;
+    }
 }
