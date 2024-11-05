@@ -81,7 +81,7 @@ body{
     border-width: 2px;
     border-color: #CEA07E;
     color: white;
-    width: 90%;
+    width: 100%;
     caret-color:#CEA07E;
 }
 .search:focus{
