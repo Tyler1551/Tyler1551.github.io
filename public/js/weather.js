@@ -59,7 +59,6 @@ function getWeather(){
                     document.getElementById('temp').innerHTML = temperature + '°C';
             }
             req.send();
-
         });
     }
     else{

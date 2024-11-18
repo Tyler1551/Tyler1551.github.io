@@ -270,3 +270,15 @@ option:active{
     grid-column: 1;
     grid-row: 2;
 }
+
+.articles{
+    display: grid;
+    grid-column: 1;
+    grid-row: 6 / 6;
+}
+
+.btc-price{
+    display: grid;
+    grid-column: 1;
+    grid-row: 10;
+}
