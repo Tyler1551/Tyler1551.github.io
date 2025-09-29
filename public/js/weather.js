@@ -5,7 +5,7 @@ function getWeather(){
             lat = position.coords.latitude;
             long = position.coords.longitude;
 
-            var api = 'https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude=' + long + '&hourly=temperature_2m&current_weather=true';
+            var api = 'https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude=' + long + '&hourly=temperature_2m&current_weather=true&daily=sunset';
             var req = new XMLHttpRequest();
     
             req.open('GET', api, true);
@@ -14,7 +14,13 @@ function getWeather(){
                 var data = JSON.parse(this.response);
     
                 var temperature = data.current_weather.temperature;
+                var sunset = data.daily.sunset[0];
+
+                var sunset_time = sunset.split('T')[1];
                 var weatherCode = data.current_weather.weathercode;
+
+
+                document.getElementById('sunset').innerText = sunset_time
     
                 // weather codes are what im going to use for icons. Choose what's appropriate from list
                 /* 
