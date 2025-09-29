@@ -14,13 +14,9 @@ function getWeather(){
                 var data = JSON.parse(this.response);
     
                 var temperature = data.current_weather.temperature;
-                var sunset = data.daily.sunset[0];
-
-                var sunset_time = sunset.split('T')[1];
                 var weatherCode = data.current_weather.weathercode;
 
-
-                document.getElementById('sunset').innerText = sunset_time
+                document.getElementById('sunset').innerText = data.daily.sunset[0].split('T')[1]
     
                 // weather codes are what im going to use for icons. Choose what's appropriate from list
                 /* 
