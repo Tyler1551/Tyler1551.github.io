@@ -50,7 +50,7 @@ body {
 .weather {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 3vh);
+    grid-template-rows: repeat(2, 4vh);
     grid-row: 1;
     grid-column: 3 / 4;
 }
