@@ -1,14 +1,16 @@
-window.onload = (event) =>{
+
+
+window.onload = (event) => {
     var key = 'https://content.guardianapis.com/world?api-key=24fbf2aa-b2dd-42a5-b5bc-f29d196def94';
 
     var req = new XMLHttpRequest();
 
     req.open('GET', key, true);
 
-    req.onload = function(){
+    req.onload = function () {
         var data = JSON.parse(this.response);
 
-        for(var i = 0; i < 5; i++){
+        for (var i = 0; i < 5; i++) {
             var header = data.response.results[i].webTitle;
             var link = data.response.results[i].webUrl;
 

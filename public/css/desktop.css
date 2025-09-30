@@ -50,7 +50,7 @@ body {
 .weather {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 5vh);
+    grid-template-rows: repeat(2, 3vh);
     grid-row: 1;
     grid-column: 3 / 4;
 }
@@ -73,6 +73,34 @@ body {
     display: grid;
     grid-column: 3;
     grid-row: 2;
+}
+
+#progress {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 3;
+    display: none;
+    width: 10vw;
+
+}
+
+meter {
+    display: none;
+}
+
+meter {
+    -webkit-appearance: none;
+}
+
+meter::-webkit-meter-bar {
+    background: #EDD9A3;
+    border: 0.5px solid #EDD9A3;
+    border-radius: 2px;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #443742;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1d4e6', endColorstr='#6bb4d1', GradientType=0);
 }
 
 .searchForm {

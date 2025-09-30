@@ -1,17 +1,16 @@
-function convert(){
+function convert() {
     var textArea = document.getElementById('convertText');
     var text = document.getElementById('convertText').value;
 
-    if(text == ""){
+    if (text == "") {
         textArea.value = "ENTER SOMETHING!";
-        console.log("Don't look at me, look at him")
         return
     }
 
     var words = text.split(' ');
 
-    for(let i = 0; i < words.length; i++){
-        if(words[i].toLowerCase() == "ltd"){
+    for (let i = 0; i < words.length; i++) {
+        if (words[i].toLowerCase() == "ltd") {
             words[i] = "Limited";
         }
 

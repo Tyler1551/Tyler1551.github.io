@@ -1,5 +1,7 @@
 let lat, long
 function getWeather() {
+
+
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition((position) => {
             lat = position.coords.latitude;
@@ -16,11 +18,23 @@ function getWeather() {
                 var temperature = data.current_weather.temperature;
                 var weatherCode = data.current_weather.weathercode;
 
-                var sunrise = data.daily.sunrise[0].split('T')[1];
-                var sunset = data.daily.sunset[0].split('T')[1];
+                var sunrise = new Date(data.daily.sunrise[0]);
+                var sunset = new Date(data.daily.sunset[0]);
+
+                const currentTime = new Date();
+
+                var totalDaylight = sunset - sunrise;
+                var elapsed = currentTime - sunrise;
+
+                const pctElapsed = Math.min(100, Math.max(0, (elapsed / totalDaylight) * 100));
+
+                var progress = pctElapsed.toFixed(1);
+
+                document.getElementById("progress").value = progress;
+                document.getElementById("progress").style = "display: grid;";
 
 
-                console.log(sunrise, sunset);
+
                 document.getElementById('sunset').innerText = data.daily.sunset[0].split('T')[1]
 
                 // weather codes are what im going to use for icons. Choose what's appropriate from list
