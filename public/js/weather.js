@@ -5,7 +5,7 @@ function getWeather() {
             lat = position.coords.latitude;
             long = position.coords.longitude;
 
-            var api = 'https://api.open-meteo.com/v1/forecast?latitude=' + lat + '&longitude=' + long + '&hourly=temperature_2m&current_weather=true&daily=sunset,sunrise';
+            var api = 'https://api.open-meteo.com/v1/forecast?latitude=' + lat + '&longitude=' + long + '&hourly=temperature_2m&current_weather=true&daily=sunset,sunrise&timezone=Europe%2FLondon';
             var req = new XMLHttpRequest();
 
             req.open('GET', api, true);
