@@ -68,16 +68,14 @@
         grid-row: 2;
     }
 
-    meter {
-        display: none;
-    }
+    meter {}
 
     meter {
         -webkit-appearance: none;
     }
 
     #progress {
-        display: grid;
+        display: none;
         grid-column: 2 / 3;
         grid-row: 3;
         width: 25vw;
