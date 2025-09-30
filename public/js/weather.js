@@ -23,8 +23,12 @@ function getWeather() {
 
                 const currentTime = new Date();
 
+                timeTest = new Date('Tue Sep 30 2025 23:00:40 GMT+0100 (Irish Standard Time)')
+
+                console.log(currentTime)
+
                 var totalDaylight = sunset - sunrise;
-                var elapsed = currentTime - sunrise;
+                var elapsed = timeTest - sunrise;
 
                 const pctElapsed = Math.min(100, Math.max(0, (elapsed / totalDaylight) * 100));
 
